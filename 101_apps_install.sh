@@ -44,7 +44,7 @@ sudo pacman -S ttf-inconsolata --needed --noconfirm
 sudo pacman -S neofetch --needed --noconfirm
 
 # AUR packages
-yaourt -S ttf-font-awesome otf-font-awesome pasystray-git  --noconfirm
+yaourt -S ttf-font-awesome otf-font-awesome pasystray-gtk3-git  --noconfirm
 
 #Pamac
 yaourt -S pamac-aur  --noconfirm
