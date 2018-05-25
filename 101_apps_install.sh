@@ -40,6 +40,9 @@ sudo pacman -S lxappearance qt5ct --needed --noconfirm
 # ttf and otf
 sudo pacman -S ttf-inconsolata --needed --noconfirm
 
+#neofetch
+sudo pacman -S neofetch --needed --noconfirm
+
 # AUR packages
 yaourt -S ttf-font-awesome otf-font-awesome pasystray-git  --noconfirm
 
