@@ -1,6 +1,6 @@
 [global_config]
   focus = system
-  title_font = Monospace 10
+  title_font = Inconsolata for Powerline Bold 9
   title_transmit_bg_color = "#d30102"
   title_use_system_font = False
 [keybindings]
@@ -19,7 +19,7 @@
     background_darkness = 0.64
     background_type = transparent
     cursor_color = "#aaaaaa"
-    font = Monospace 9
+    font = Inconsolata for Powerline Bold 9
     use_system_font = False
   [[solarized-dark]]
     background_color = "#002b36"

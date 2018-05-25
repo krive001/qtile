@@ -26,14 +26,25 @@ sudo pacman -S  firefox-i18n-hu --needed --noconfirm
 
 # powerline
 sudo pacman -S powerline --needed --noconfirm
-yaourt -S powerline-fonts-git --needed --noconfirm
+yaourt -S powerline-fonts-git --noconfirm
 
+wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
+
+sudo mv PowerlineSymbols.otf /usr/share/fonts/
+sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
+
+# gtk+  and qt set theme icon eg.
+sudo pacman -S lxappearance qt5ct --needed --noconfirm
+
+# ttf and otf
+sudo pacman -S ttf-inconsolata --needed --noconfirm
 
 # AUR packages
-pacman -S ttf-font-awesome otf-font-awesome pasystray-git  --needed --noconfirm
+yaourt -S ttf-font-awesome otf-font-awesome pasystray-git  --noconfirm
 
 #Pamac
-yaourt -S pamac-aur --needed --noconfirm
+yaourt -S pamac-aur  --noconfirm
 
 #sublime-text3
-yaourt -S suvlime-text-dev --needed --noconfirm
+yaourt -S sublime-text-dev --noconfirm

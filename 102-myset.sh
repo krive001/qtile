@@ -11,4 +11,6 @@ cp .config/qtile/* ~/.config/qtile/
 cp .config/mc/* ~/.config/mc/
 cp .config/terminator/* ~/.config/terminator/
 
-cp mysetfile/* ~
+cp mysetfile/.bashrc* ~
+cp mysetfile/.Xresources* ~
+cp mysetfile/.tmux.conf* ~

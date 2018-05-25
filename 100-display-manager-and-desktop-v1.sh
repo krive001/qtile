@@ -20,7 +20,7 @@ echo "#################################################"
 
 sudo pacman -Syyu
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed
-sudo pacman -S qtile python-setuptools --noconfirm --needed
+sudo pacman -S qtile python-setuptools python-xdg --noconfirm --needed
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
 
@@ -29,5 +29,3 @@ sudo systemctl set-default graphical.target
 
 #sudo pacman -R ...
 #sudo pacman -R xfce4-artwork --noconfirm
-mkdir ~/.config/qtile
-cp .config/qtile/* ~/.config/qtile/

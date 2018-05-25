@@ -376,8 +376,8 @@ def init_widgets_list():
                                ('terminator', 'terminator', 'Browser'),
                                ('system-software-install', 'pamac-manager', 'Browser'),
                                ('smplayer', 'smplayer', 'ed'),
-                               ('spotify', 'spotify', 'Music'),
-                               ('sublime-text2', 'subl3', 'Text editor'),
+                               #('spotify', 'spotify', 'Music'),
+                               ('sublime-text', 'subl3', 'Text editor'),
                                ('/usr/share/icons/hicolor/32x32/apps/leafpad.png', 'leafpad', 'Music'),
                                ('geany', 'geany', 'Editor')
 								],
